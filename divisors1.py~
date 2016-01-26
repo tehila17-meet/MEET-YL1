@@ -22,7 +22,7 @@
 		
 import random
 play="Y"
-prob=int(input("input probabilty of TAILS (ex:25 / 50) : " ))
+prob=int(input("input probabilty of TAILS (ex:25%) : " ))
 division = 100/prob
 minus = division - 1
 while play=="Y":

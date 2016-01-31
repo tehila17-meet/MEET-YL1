@@ -11,10 +11,13 @@ from animal import*
 #i.eat("bamba")
 #i.sleep("food")
 
+chicken= Chicken("cockodoolado", "bob" ,5)
 bird = Bird("Tweet", "barbara", 17)
-bird.fly()
+
+bird.eatchicken("Bob")
+
+chicken.eatchicken()
 
 
 
-x = Chicken("cockadoolado" , "kuku",2)
-chicken.eat("bamba")
+
